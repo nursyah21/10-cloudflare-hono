@@ -1,0 +1,23 @@
+name = "10-cloudflare-hono"
+compatibility_date = "2024-09-15"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+MY_VAR = "my-variable"
+JWT_SECRET = "make(&U)1230KAqlasj"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "test"
+database_id = "7afa809a-d521-4739-aca1-a05abe1dee53"
+
+# [ai]
+# binding = "AI"
